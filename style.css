@@ -1,0 +1,16 @@
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+p::first-letter {
+  color: #ff0000;
+font-size: xx-large;}
+
+h1::before {
+  content: url(Images/welcome.gif);
+}
+
+h2::after {
+  content: url(Images/welcome.gif);
+}
